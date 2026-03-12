@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import BabySignLanguage from './components/Babysignlanguage'
 import Banner from './components/Banner'
@@ -10,7 +10,6 @@ import Signlanguage from './components/Signlanguage'
 import Stages from './components/Stages'
 import PrivacyPolicy from './components/PrivacyPolicy'
 
-// Main landing page
 const Home = () => (
   <div className="body">
     <Banner />
@@ -26,12 +25,12 @@ const Home = () => (
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
