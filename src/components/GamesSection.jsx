@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import image1 from "../assets/Games.png";
+import image1 from "../assets/games.png";
 
 const GamesSection = () => {
   const [visible, setVisible] = useState(false);
