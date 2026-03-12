@@ -195,7 +195,7 @@ html {
 .hero-heading {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: clamp(28px, 3.5vw, 48px);
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #1a1a1a;
@@ -396,7 +396,7 @@ html {
 .wisl-heading {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: clamp(22px, 3vw, 40px);
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #1a1a1a;
@@ -520,7 +520,7 @@ html {
 }
 
 .wisl-para {
-  font-size: clamp(13px, 1.1vw, 15px);
+  font-size: clamp(16px, 1.1vw, 15px);
   font-weight: 400;
   color: #555;
   line-height: 1.75;
@@ -603,7 +603,7 @@ html {
 .bsl-heading {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: clamp(22px, 3vw, 40px);
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #1a1a1a;
@@ -675,7 +675,7 @@ html {
 }
 
 .bsl-para {
-  font-size: clamp(13px, 1.1vw, 15px);
+  font-size: clamp(16px, 1.1vw, 15px);
   font-weight: 400;
   color: #555;
   line-height: 1.75;
@@ -772,7 +772,7 @@ html {
 .bosl-heading {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: clamp(22px, 3vw, 40px);
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #1a1a1a;
@@ -895,7 +895,7 @@ html {
 }
 
 .bosl-para {
-  font-size: clamp(13px, 1.1vw, 15px);
+  font-size: clamp(16px, 1.1vw, 15px);
   font-weight: 400;
   color: #555;
   line-height: 1.75;
@@ -903,11 +903,11 @@ html {
 }
 
 .bosl-intro {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .bosl-outro {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .bosl-list {
@@ -1391,7 +1391,7 @@ html {
 .stg-title {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: clamp(28px, 3.5vw, 48px);
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #1a1a1a;
@@ -1400,7 +1400,7 @@ html {
 }
 
 .stg-para {
-  font-size: clamp(13px, 1.1vw, 15px);
+  font-size: clamp(16px, 1.1vw, 15px);
   font-weight: 400;
   color: #555;
   line-height: 1.75;
@@ -1502,7 +1502,7 @@ html {
 .qzs-title {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: clamp(28px, 3.5vw, 48px);
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #1a1a1a;
@@ -1511,7 +1511,7 @@ html {
 }
 
 .qzs-para {
-  font-size: clamp(13px, 1.1vw, 15px);
+  font-size: clamp(16px, 1.1vw, 15px);
   font-weight: 400;
   color: #555;
   line-height: 1.75;
@@ -1664,7 +1664,7 @@ html {
 .pdb-title {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: clamp(26px, 3vw, 44px);
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #1a1a1a;
@@ -1672,7 +1672,7 @@ html {
 }
 
 .pdb-para {
-  font-size: clamp(13px, 1.1vw, 15px);
+  font-size: clamp(16px, 1.1vw, 15px);
   font-weight: 400;
   color: #555;
   line-height: 1.75;
@@ -1745,7 +1745,7 @@ html {
 .gms-title {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: clamp(26px, 3vw, 44px);
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #1a1a1a;
@@ -1821,7 +1821,7 @@ html {
 }
 
 .gms-para {
-  font-size: clamp(13px, 1.1vw, 15px);
+  font-size: clamp(16px, 1.1vw, 15px);
   font-weight: 400;
   color: #555;
   line-height: 1.75;
