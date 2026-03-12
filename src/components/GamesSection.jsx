@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import image1 from "../assets/games.png";
+import gameimg from "../assets/games.png";
 
 const GamesSection = () => {
   const [visible, setVisible] = useState(false);
@@ -27,7 +27,7 @@ const GamesSection = () => {
         {/* LEFT — single image */}
         <div className={`gms-left ${visible ? "gms-visible" : ""}`}>
 
-            <img src={image1} alt="Games" className="gms-img" />
+            <img src={gameimg} alt="Games" className="gms-img" />
     
         </div>
 
