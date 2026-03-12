@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import BabySignLanguage from './components/Babysignlanguage'
 import Banner from './components/Banner'
@@ -25,12 +25,12 @@ const Home = () => (
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
