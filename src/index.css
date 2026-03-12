@@ -208,7 +208,7 @@ html {
   font-weight: 400;
   color: #555;
   line-height: 1.7;
-  max-width: 400px;
+  max-width: 600px;
   margin: 0;
 }
 
@@ -900,6 +900,26 @@ html {
   color: #555;
   line-height: 1.75;
   margin: 0;
+}
+
+.bosl-intro {
+  margin-bottom: 10px;
+}
+
+.bosl-outro {
+  margin-top: 25px;
+}
+
+.bosl-list {
+  padding-left: 40px; /* indentation like the screenshot */
+  margin: 0;
+  color: #555;
+  font-size: clamp(13px, 1.1vw, 15px);
+  line-height: 1.8;
+}
+
+.bosl-list li {
+  margin-bottom: 6px;
 }
 
 /* ── TABLET ── */

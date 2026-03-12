@@ -27,8 +27,8 @@ const HeroSection = () => {
         <div className={`hero-left ${loaded ? "visible" : ""}`}>
           <h1 className="hero-heading">Welcome to ASL</h1>
           <p className="hero-para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Sed eu diam vel nibh malesuada sollicitudin eget quis.
+            Welcome to SimplySigned, your go-to platform for learning American Sign Language (ASL) in a fun and interactive way. Our platform is designed for children, parents and beginners who want to explore the world of sign language through engaging lessons, games and quizzes. <br/><br/>
+            Start your sign language learning journey today and make communication with your child or loved ones easier and more meaningful.
           </p>
           <button className="hero-btn">LET'S GET STARTED</button>
         </div>

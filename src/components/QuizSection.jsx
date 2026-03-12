@@ -22,17 +22,7 @@ const QuizSection = () => {
         <div className={`qzs-left ${visible ? "qzs-visible" : ""}`}>
           <h2 className="qzs-title">Quiz</h2>
           <p className="qzs-para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-          </p>
-          <p className="qzs-para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et
-          </p>
-          <p className="qzs-para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et
+            Interactive quizzes help learners test their knowledge and reinforce ASL skills. After each lesson, quizzes assess recognition of signs, memory and accuracy. Quizzes make learning fun while providing valuable feedback, ensuring that every learner improves their sign language proficiency effectively.
           </p>
         </div>
 

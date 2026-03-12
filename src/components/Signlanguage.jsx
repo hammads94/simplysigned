@@ -44,18 +44,10 @@ const WhatIsSignLanguage = () => {
           {/* RIGHT — content */}
           <div className={`wisl-right ${visible ? "wisl-visible" : ""}`}>
             <p className="wisl-para">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu diam vel
-              nibh malesuada sollicitudin eget quis neque Sed aliquet libero at nisi
-              lacinia, quis ultrices diam posuere.
+              Sign language is a visual form of communication that uses hand signs, gestures and facial expressions to convey ideas and emotions. It is widely used by the deaf and hard-of-hearing community, but it is also a powerful tool for babies and children who cannot speak yet.
             </p>
             <p className="wisl-para">
-              Morbi accumsan purus ipsum, eu dapibus risus consectetur ut. Ut quis mauris
-              sit amet justo vulputate posuere nec a metus. Donec quis blandit felis.
-              Proin et odio laoreet,
-            </p>
-            <p className="wisl-para">
-              convallis dui vel, consequat dui. Aliquam tincidunt metus vel justo
-              consectetur accumsan. Suspendisse pulvinar neque sed massa aliquet lacinia.
+              At SimplySigned, learners can understand the basics of ASL, practice essential signs, and build confidence in communicating without words.
             </p>
           </div>
 

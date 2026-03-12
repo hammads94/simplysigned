@@ -30,17 +30,10 @@ const ParentDashboard = () => {
         <div className={`pdb-right ${visible ? "pdb-visible" : ""}`}>
           <h2 className="pdb-title">Parent Dashboard</h2>
           <p className="pdb-para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+            The Parent Dashboard allows parents to track their child’s progress in learning sign language.
           </p>
           <p className="pdb-para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et
-          </p>
-          <p className="pdb-para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et
+            You can monitor completed lessons, quiz scores, and time spent on interactive exercises. This feature ensures parents are actively involved in their child’s ASL learning journey.
           </p>
         </div>
 

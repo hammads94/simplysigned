@@ -43,19 +43,20 @@ const BenefitsOfSignLanguage = () => {
 
           {/* RIGHT — content */}
           <div className={`bosl-right ${visible ? "bosl-visible" : ""}`}>
-            <p className="bosl-para">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu diam vel
-              nibh malesuada sollicitudin eget quis neque Sed aliquet libero at nisi
-              lacinia, quis ultrices diam posuere.
+            <p className="bosl-para bosl-intro">
+              Learning sign language comes with many advantages for children and adults alike:
             </p>
-            <p className="bosl-para">
-              Morbi accumsan purus ipsum, eu dapibus risus consectetur ut. Ut quis mauris
-              sit amet justo vulputate posuere nec a metus. Donec quis blandit felis.
-              Proin et odio laoreet,
-            </p>
-            <p className="bosl-para">
-              convallis dui vel, consequat dui. Aliquam tincidunt metus vel justo
-              consectetur accumsan. Suspendisse pulvinar neque sed massa aliquet lacinia.
+
+            <ul className="bosl-list">
+              <li>Enhances communication with babies and the deaf community</li>
+              <li>Supports early language development and speech readiness</li>
+              <li>Improves cognitive skills and memory retention</li>
+              <li>Strengthens parent-child bonding</li>
+              <li>Promotes inclusivity and social awareness</li>
+            </ul>
+
+            <p className="bosl-para bosl-outro">
+              SimplySigned makes learning ASL engaging and interactive through a mix of lessons, games, and quizzes
             </p>
           </div>
 

@@ -34,21 +34,10 @@ const GamesSection = () => {
         {/* RIGHT — content */}
         <div className={`gms-right ${visible ? "gms-visible" : ""}`}>
           <p className="gms-para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+            Learning sign language can be fun with interactive games. Our platform includes games that teach signs through play-based learning, helping children remember signs faster.
           </p>
           <p className="gms-para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et
-          </p>
-          <p className="gms-para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et
-          </p>
-          <p className="gms-para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et
+            Games improve memory, recognition, and engagement, while making ASL practice enjoyable for kids of all ages.
           </p>
         </div>
 

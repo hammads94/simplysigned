@@ -28,17 +28,7 @@ const Stages = () => {
         <div className={`stg-right ${visible ? "stg-visible" : ""}`}>
           <h2 className="stg-title">Stages</h2>
           <p className="stg-para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-          </p>
-          <p className="stg-para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et
-          </p>
-          <p className="stg-para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et
+            Our learning stages are designed to take users from beginner to advanced ASL skills gradually. Each stage focuses on a set of signs, gestures, and practical exercises to ensure learners master sign language step by step. Progressing through the stages builds confidence and fluency in everyday communication.
           </p>
         </div>
 

@@ -33,18 +33,10 @@ const BabySignLanguage = () => {
           {/* LEFT — Content */}
           <div className={`bsl-left ${visible ? "bsl-visible" : ""}`}>
             <p className="bsl-para">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu diam vel
-              nibh malesuada sollicitudin eget quis magna. Curabitur accumsan risus, a
-              finibus metus interdum vel, quis ultrices diam possim.
+              Baby sign language helps babies and toddlers express their needs and emotions before they can speak. By learning simple signs, babies can communicate hunger, feelings, and daily needs, reducing frustration for both parents and children.
             </p>
             <p className="bsl-para">
-              Nulla accumsan cursus ipsum, eu dapibus massa consectetur et. Ut quis massa
-              sit amet felis malesuada posuere nec a tellus. Donec quis blandit felis.
-              Praesent elit laoreet.
-            </p>
-            <p className="bsl-para">
-              Curabitur sed vel consequat dui. Aliquam tincidunt tellus volutpat
-              consectetur accumsan. Suspendisse pulvinar neque sed massa malesuada.
+              Our platform offers easy-to-follow lessons, visual guides and interactive exercises to introduce your child to baby ASL step by step.
             </p>
           </div>
 
