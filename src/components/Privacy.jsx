@@ -1,6 +1,6 @@
 
 
-const PrivacyPolicy = () => {
+const Privacy = () => {
   return (
     <div className="pp-page">
       <div className="pp-container">
@@ -208,4 +208,4 @@ const PrivacyPolicy = () => {
   );
 };
 
-export default PrivacyPolicy;
+export default Privacy;

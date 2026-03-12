@@ -8,7 +8,7 @@ import ParentDashboard from './components/Parentdashboard'
 import QuizSection from './components/QuizSection'
 import Signlanguage from './components/Signlanguage'
 import Stages from './components/Stages'
-import PrivacyPolicy from './components/PrivacyPolicy'
+import Privacy from './components/Privacy'
 
 const Home = () => (
   <div className="body">
@@ -28,7 +28,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="/Privacy" element={<Privacy />} />
       </Routes>
     </BrowserRouter>
   )
