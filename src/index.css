@@ -1860,3 +1860,211 @@ html {
     width: 100%;
   }
 }
+
+
+
+/****** privacy Policy ******/
+.pp-page {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fdf9f0;
+  font-family: 'Barlow', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+ 
+/* dot grid */
+.pp-page::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, #d4c9b0 1px, transparent 1px);
+  background-size: 32px 32px;
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 0;
+}
+ 
+/* ── CONTENT CONTAINER ── */
+.pp-container {
+  position: relative;
+  z-index: 1;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 80px 40px 100px;
+  box-sizing: border-box;
+}
+ 
+/* ── HEADER ── */
+.pp-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+ 
+.pp-main-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: clamp(32px, 5vw, 56px);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  margin: 0 0 12px;
+}
+ 
+.pp-last-updated {
+  font-size: 14px;
+  color: #888;
+  margin: 0;
+  font-weight: 500;
+}
+ 
+/* ── INTRO TEXT ── */
+.pp-intro {
+  font-size: clamp(14px, 1.2vw, 16px);
+  color: #444;
+  line-height: 1.8;
+  margin: 0 0 14px;
+}
+ 
+.pp-intro:last-child {
+  margin-bottom: 0;
+}
+ 
+/* ── SECTION ── */
+.pp-section {
+  margin-bottom: 48px;
+}
+ 
+.pp-section-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: clamp(20px, 2.5vw, 28px);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  margin: 0 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e8e0d0;
+}
+ 
+.pp-sub-title {
+  font-family: 'Barlow', sans-serif;
+  font-size: clamp(15px, 1.4vw, 18px);
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 12px;
+}
+ 
+/* ── CARD ── */
+.pp-card {
+  background-color: #f5f0e4;
+  border-radius: 20px;
+  padding: 28px 32px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+ 
+.pp-card:last-child {
+  margin-bottom: 0;
+}
+ 
+/* Highlighted card — children's privacy */
+.pp-card--highlight {
+  background-color: #fff8e8;
+  border-left: 4px solid #FF8C00;
+}
+ 
+/* Contact card */
+.pp-card--contact {
+  background-color: #eef6ff;
+  border-left: 4px solid #4a90d9;
+}
+ 
+/* ── TEXT ── */
+.pp-text {
+  font-size: clamp(13px, 1.1vw, 15px);
+  color: #555;
+  line-height: 1.8;
+  margin: 0 0 12px;
+}
+ 
+.pp-text:last-child {
+  margin-bottom: 0;
+}
+ 
+.pp-text--strong {
+  font-weight: 700;
+  color: #333;
+}
+ 
+/* ── LIST ── */
+.pp-list {
+  margin: 8px 0 16px 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+ 
+.pp-list li {
+  font-size: clamp(13px, 1.1vw, 15px);
+  color: #555;
+  line-height: 1.7;
+  padding-left: 4px;
+}
+ 
+.pp-list li::marker {
+  color: #FF8C00;
+}
+ 
+/* ── CONTACT ── */
+.pp-contact-info {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+ 
+.pp-contact-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  font-size: clamp(13px, 1.1vw, 15px);
+  color: #555;
+}
+ 
+.pp-contact-label {
+  font-weight: 700;
+  color: #333;
+  min-width: 60px;
+}
+ 
+.pp-link {
+  color: #4a90d9;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+ 
+.pp-link:hover {
+  color: #2a6fb0;
+  text-decoration: underline;
+}
+ 
+/* ── MOBILE ── */
+@media (max-width: 600px) {
+  .pp-container {
+    padding: 48px 20px 72px;
+  }
+ 
+  .pp-card {
+    padding: 20px 20px;
+  }
+ 
+  .pp-contact-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+}
